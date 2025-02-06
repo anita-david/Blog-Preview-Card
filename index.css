@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--background-color:hsl(47, 88%, 63%);
+	--secondary-color: hsl(0, 0%, 100%);
+	--primary-text-color: hsl(0, 0%, 7%);
+	--secondary-text-color:hsl(0, 0%, 42%); 
+}
+
+body{
+	background-color: var(--background-color);
+	font-family:"Figtree", serif ;
+}
+
+.card-container{
+	position: absolute;
+	transform:translate(-50%, -50%) ;
+	top: 50%;
+	left: 50%;
+	background-color: var(--secondary-color);
+	border-radius: 10px;
+	border: 1px solid var(--primary-text-color);
+	padding: 1rem;
+	box-shadow: 3px 3px 1px var(--primary-text-color);
+	display: flex;
+	flex-direction:column ;
+	align-items: flex-start;
+}
+
+img{
+	border-radius: 10px;
+}
+
+.learning{
+	background-color: var(--background-color);
+	padding: 0.5rem 1rem;
+	margin: 1rem 0;
+	border-radius: 5px;
+	font-weight: 800;
+}
+
+.header-text{
+	margin: 1rem 0;
+	font-size: 1.5rem;
+	font-weight: 800;
+}
+
+.description{
+	color: var(--secondary-text-color);
+}
+
+.profile-container{
+	display: flex;
+	margin: 1rem 0;
+	gap: 1.5rem;
+	align-items: center;
+}
+
+.profile-name{
+	font-weight: 800;
+}
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
