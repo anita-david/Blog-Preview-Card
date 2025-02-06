@@ -52,6 +52,7 @@ img{
 
 .description{
 	color: var(--secondary-text-color);
+	width: 320px;
 }
 
 .profile-container{
